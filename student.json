@@ -1,0 +1,52 @@
+    {
+            "students": [
+                {
+                    "firstname": "pavan",
+                    "lastname": "reddy",
+                    "dob": "2001-06-30",
+                    
+                    "address": [
+                            {
+                                "type": "permanent",
+                                "street": "123 Main Street",
+                                "city": "Hyderabad",
+                                "state": "Telangana",
+                                "zip": "500001"
+                            },
+                            {
+                                "type": "current",
+                                "street": "456 Park Avenue",
+                                    "city": "Hyderabad",
+                                    "state": "Telangana",
+                                    "zip": "500002"
+                                }
+                        ],
+                        "skills": ["python", "ansible", "linux"],
+                    },
+                    {
+                        "firstname": "pavan",
+                        "lastname": "reddy",
+                        "dob": "2001-06-30",
+                    
+                        "address": [
+                            {
+                                "type": "permanent",
+                                "street": "123 Main Street",
+                                "city": "Hyderabad",
+                                "state": "Telangana",
+                                "zip": "500001"
+                            }
+                            {
+                                "type": "current",
+                                "street": "456 Park Avenue",
+                                    "city": "Hyderabad",
+                                    "state": "Telangana",
+                                    "zip": "500002"
+                                }
+                        ],
+                        "skills": ["python", "ansible", "linux"],
+                    }
+                    ]
+            }
+
+
