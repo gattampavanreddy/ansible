@@ -1,0 +1,23 @@
+- name: demo on data types
+  hosts: local
+  connection: local
+  vars:
+    program: "DevSecOps with AWS" #string
+    Duartion: 140 #integer/number
+    is_live: true #boolean
+    Details: #map/dictionary
+      Months: 4
+      Trainer: "Sivakumar Reddy"
+    Topics: #list/array -/[]
+       - linux
+       - shell
+       - ansible
+  tasks:
+  - name: print variables
+    ansible.builtin.debug:
+      msg:  |
+        Program is: {{ program }}, 
+        Duration is: {{ Duartion }}, 
+        Is live?: {{ is_live }}, 
+        Details: {{ Details }}, 
+        Topics: {{ Topics }}
