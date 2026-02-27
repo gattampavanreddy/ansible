@@ -1,0 +1,54 @@
+
+
+<!--student object-->
+<students>
+    <student>
+    <name>Pavan Reddy</name>
+    <dob>30-06-2001</dob>
+    <email>pavanreddy2266@gmail.com</email>
+    <!--address object -->
+    <!--<address>
+        <street>123 Main Street</street>
+        <city>Hyderabad</city>
+        <state>Telangana</state>
+        <zip>500001</zip>
+    </address>-->
+    <addresses>
+        <permanentaddress>
+            <street>123 Main Street</street>
+            <city>Hyderabad</city>
+            <state>Telangana</state>
+            <zip>500001</zip>
+        </permanentaddress>
+        <currentaddress>
+            <street>456 Park Avenue</street>
+            <city>Hyderabad</city>
+            <state>Telangana</state>
+            <zip>500002</zip>
+        </currentaddress>
+    </addresses>
+   </student>
+
+<student>
+    <name>Rohit Kumar</name>
+    <dob>15-08-2000</dob>
+    <email>rohitkumar@gmail.com</email> 
+    <addresses>
+        <permanentaddress>
+            <street>789 Elm Street</street>
+            <city>Hyderabad</city>
+            <state>Telangana</state>
+            <zip>500003</zip>
+        </permanentaddress>
+        <currentaddress>
+            <street>321 Oak Avenue</street>
+            <city>Hyderabad</city>
+            <state>Telangana</state>
+            <zip>500004</zip>
+        </currentaddress>   
+    </addresses>
+</student>  
+</students>
+
+
+

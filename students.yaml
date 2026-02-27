@@ -1,0 +1,31 @@
+- name: "pavan reddy"
+  qualification: "B.Tech"
+  age: 22    
+  mobile number: 1234567890
+  addresses:
+    - flatno: "123"
+      street: "Main Street"
+      city: "City"
+      type: "current"
+      
+    - flatno: 104
+      street: "Elm Street"
+      city: "City"
+      type: "permanent"
+- name: "pavan reddy"
+  qualification: "B.Tech"
+  age: 22    
+  mobile number: 1234567890
+  addresses:
+    - flatno: "123"
+      street: "Main Street"
+      city: "City"
+      type: "current"
+      
+    - flatno: 104
+      street: "Elm Street"
+      city: "City"
+      type: "permanent"
+     
+
+   
