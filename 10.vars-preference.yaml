@@ -1,0 +1,17 @@
+- name : variable preference
+  hosts: local
+  connection: local
+  vars:
+    Name: "Ansible from PLAY"
+  vars_files:
+  - course.yaml
+  vars_prompt:
+  - name: Name
+    prompt: Please enter your name
+    private: false
+  tasks:
+  - name: print variables
+    vars:
+      Name: "Ansible from TASK"
+    ansible.builtin.debug:
+      msg: "Hi {{ Name }}, Welcome to Ansible Training"
