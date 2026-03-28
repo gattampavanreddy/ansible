@@ -3,7 +3,7 @@
   connection: local
   vars:
     topics: linux, shell, ansible, terraform
-    Course: "Ansible for DevOps"
+    course: "Ansible for DevOps"
     tagsMap:
       name: ansible
       project: roboshop
