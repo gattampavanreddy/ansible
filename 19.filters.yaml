@@ -49,11 +49,11 @@
       msg: "{{ student_yaml | to_nice_json }}"
   
   - name: convert to upper case
-    ansible.bultin.debug:
+    ansible.builtin.debug:
       msg: "{{ course | upper }}"
 
   - name: convert to lower case
-    ansible.bultin.debug:
+    ansible.builtin.debug:
       msg: "{{ course | lower }}"
   
   
