@@ -24,7 +24,7 @@
     ]
   tasks:
   - name: greeting
-    ansible.buitin.debug:
+    ansible.builtin.debug:
       msg: "Hi Pavan Reddy, {{greeting | default('Welcome to Ansible') }}"
 
   - name: convert string to lists
